@@ -61,7 +61,7 @@ String code2 = "xyxyy"
 // isValid(sentence2, code2) == false
 
 String sentence3 = "dog eat dog eat cat"
-String code3 = "x y x z r"
+String code3 = "xyxzr"
 // isValid(sentence3, code3) == false
 
 ```
