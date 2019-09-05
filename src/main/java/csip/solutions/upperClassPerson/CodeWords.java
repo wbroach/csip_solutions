@@ -14,13 +14,13 @@ public class CodeWords {
 	Map<Character, String> codeMap = new HashMap<>();
 	Set<String> wordSet = new HashSet<>();
 
-	if (words.length != codes.length) { return false; };
+	if (words.length != codes.length) { return false; }
 
 	for (int i = 0; i < words.length; ++i) {
 
 	    if (codeMap.get(codes[i]) != null) {
 		
-		if (codeMap.get(codes[i]) != words[i]) {
+		if (!codeMap.get(codes[i]).equals( words[i])) {
 		    return false; 
 		}
 
@@ -34,6 +34,24 @@ public class CodeWords {
 	}
 
 	return true; 
+    }
+
+    public static void main(String[] args) {
+
+	CodeWords sol = new CodeWords();
+	String sent = "dog eat dog";
+	String code = "xyx";
+	System.out.println(sol.isValid(sent, code));
+
+	sent = "dog eat dog eat dog"; 
+	code = "xyxyy";
+	System.out.println(sol.isValid(sent, code));
+
+	sent = "dog eat dog eat cat";
+	code = "xyxzr";
+	System.out.println(sol.isValid(sent, code));
+
+
     }
 
 
