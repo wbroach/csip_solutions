@@ -1,67 +1,85 @@
 # CSIP 09/04/2019
 
-Welcome to Hash Map day. 
-
 Please [Check in here](https://forms.gle/LV7y8YwFXX5Z6qDA8)
 
+## 1301
 
-## Freshperson
+1) Given an integer, sum all of the digits in the integer until you have a single digit integer
+2) Transpose an M x N integer matrix. You may assume that the argument passed to the method is
+   a valid matrix (i.e., the number of columns per row is consistent).
 
-1) Convert a string to an int.
-2) Convert an int to a string. 
+### Examples for Problem 1
 
-Notes: If you can, do not use Integer.parseInt(String int) or similar library functions
+n = 9497
 
-## Lowerclassperson
+9497 ---> 9 + 4 + 9 +7 = 29
 
-Given an array of integers and a value X, return an array of size two where the values
-in that array are the indexes of the two integers that sum to X. If no two integers in
-the array sum to X, return null
+29 ---> 2 + 9 = 11
 
+11 ---> 1 + 1 = 2
+
+return 2
+
+## 1302 / 1730 / 2720
+
+1) Given a linked list, return the nth to last node in the list, where n = 0 means that the
+   last node is returned. You may assume that a valid value for n is passed (e.g., n will not
+   equal 29 if the list is of size 7)
+
+
+###Method Signature:
 ```java
-public static int[] sumIdxs (int[] nums, int sum)
+public Node nthToLast(Node head, int n) { // .... (your code here)  }
 ```
 
+2) Given a string representing a whitespace-delimited sentence (no punctuation, either), print 
+   the sentence in decending order, then the first word, then in ascending
 
-Example 1: 
+   - Prove the runtime (where n == the number of words) for bonus points!
+
+###Method signature: 
+```java
+public void printDesc(String sentence) { ...  }
+``` 
+
+###Examples: 
 
 ```java
-int[] test = { 1, 5, 44, 7, 4, 2, 0, 1069 }; 
-int[] idx9 = sumIdxs(test, 9); // idx9 contains {1, 4}
-
+printDesc("I love Athens");
 ```
-
-Example 2: 
+Should print:
+```
+I love Athens
+I love
+I
+I love
+I love Athens
+```
 
 ```java
-int[] test2 = { 1, 2, 3, 5, 5, 5 };
-int[] idxNull = sumIdxs(test2, 9); // idxNull == null
-
+printDesc("Wear shoes when outdoors");
+```
+Should print:
+```
+Wear shoes when outdoors
+Wear shoes when
+Wear shoes
+Wear
+Wear shoes
+Wear shoes when
+Wear shoes when outdoors
 ```
 
-## Upperclassperson
+## Post-2720
 
-Given a string (which will always be a whitespace-delimited sentence) as well as a string
-consisting of characters, determine if the code matches the words in the string. If so,
-return true. Otherwise, return false. 
+1) Reverse a singly-linked list recursively
+2) Do the same thing, but iteratively
 
-```java
-public boolean isValid(String sentence, String code)
-```
+(Hint: doing #2 first may help you think about doing #1...what kind of data structure could help you here?)
 
-Example 1:
+## Graduation Time
 
-```java
-String sentence = "dog eat dog";
-String code = "xyx"; 
-// isValid(sentence, code) == true
+1) Given a linked list with a `next`, `prev`, and `random` pointer in each node, return a deep copy of the list. 
+   Note that the `random` pointer can point to any other node in the list, OR `null`
 
-String sentence2 = "dog eat dog eat dog";
-String code2 = "xyxyy"
-// isValid(sentence2, code2) == false
-
-String sentence3 = "dog eat dog eat cat"
-String code3 = "xyxzr"
-// isValid(sentence3, code3) == false
-
-```
+2) Given a node-based binary tree, return an equivalent array
