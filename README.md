@@ -1,6 +1,6 @@
 # CSIP 09/18/2019
 
-Please [Check in here](https://forms.gle/LV7y8YwFXX5Z6qDA8)
+Please [Check in here](https://forms.gle/YGcLj5aP7WoRwNbCA)
 
 ## 1301 / 1302 / Taking Data Structures
 
