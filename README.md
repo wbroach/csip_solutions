@@ -20,12 +20,13 @@ Please [Check in here](https://forms.gle/CxLJKP7Mre3h7HJY6)
    Input  : n = 138
    Output : 23 
    23 is a seed of 138 because
-   23*2*3 is equal to 138
+   23 * 2 * 3 is equal to 138
 
    Input : n = 4977
    Output : 79 711 
    79 is a seed of 4977 because
    79 * 7 * 9 = 4977.
+
    711 is also a seed of 4977 because
    711 * 1 * 1 * 7 = 4977
 
