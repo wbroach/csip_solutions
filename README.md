@@ -16,7 +16,7 @@ Please [Check in here](https://forms.gle/CxLJKP7Mre3h7HJY6)
    If no seed exists, then print the same.
 
    Examples:
-   '''
+   ```
    Input  : n = 138
    Output : 23 
    23 is a seed of 138 because
@@ -35,8 +35,7 @@ Please [Check in here](https://forms.gle/CxLJKP7Mre3h7HJY6)
 
    Input  : n = 738
    Output : 123 
-
-   '''
+   ```
 
 2) Given a 2D grid of characters and a word, find all occurrences of given word in grid. A word can be matched in all 8 directions at any point. Word is said be found 
    in a direction if all characters match in this direction (not in zig-zag form).
