@@ -1,4 +1,4 @@
-
+package csip.solutions; 
 
 public class GridSolution {
 
@@ -36,7 +36,7 @@ public class GridSolution {
 		    boolean down = isMatch(wordArr, i + 1, j, 1, 0, 1, grid); 
 		    boolean downLeft = isMatch(wordArr, i + 1, j - 1, 1, -1, 1, grid); 
 		    boolean left = isMatch(wordArr, i, j - 1, 0, -1, 1, grid); 
-		    boolean upLeft = = isMatch(wordArr, i - 1, j - 1, -1, -1, 1, grid); 
+		    boolean upLeft = isMatch(wordArr, i - 1, j - 1, -1, -1, 1, grid); 
 
 		    if (up || upRight || right || downRight || down || downLeft || left || upLeft) {
 			System.out.println("Pattern found at: (" + i + ", " + j + ")");  
@@ -45,6 +45,7 @@ public class GridSolution {
 
 	    }
 
-    }
+	}
 
+    }
 }

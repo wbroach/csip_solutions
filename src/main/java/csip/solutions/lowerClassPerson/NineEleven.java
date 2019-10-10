@@ -51,7 +51,7 @@ public class NineEleven {
 
     private static void printLine(String[] words, int bound) {
 
-	for (int i = 0; i < bound, ++i) {
+	for (int i = 0; i < bound; ++i) {
 	    System.out.print(words[i] + " "); 
 	}
 	System.out.println("");
