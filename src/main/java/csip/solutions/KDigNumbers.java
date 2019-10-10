@@ -1,16 +1,20 @@
 package csip.solutions; 
 
-public class KDigNumbers {
+/**
+ * Given a value k, generate all well ordered numbers of length k. Well
+ * ordered means that digits should be in increasing order.
+ */
+public class kdignumbers {
 
     StringBuffer out = new StringBuffer(); 
     char[] nums = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9'};
     
-    void generateKDigNums(int k) {
+    public void generateKDigNums(int k) {
 	generateKDigNumsRec(1, k);
     }
 
+    private void generateKDigNumsRec(int first, int k) {
 
-    void generateKDigNumsRec(int first, int k) {
 	if (k == 0) {
 	    System.out.println(out.toString());
 	}
@@ -23,14 +27,13 @@ public class KDigNumbers {
 	    }
 
 	}
+
     }
 
     public static void main(String[] args) {
 
 	KDigNumbers test = new KDigNumbers(); 
-
 	test.generateKDigNums(7);
-	
 
     }
 
