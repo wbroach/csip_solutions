@@ -1,6 +1,6 @@
 # CSIP 10/16/2019
 
-Please [Check in here](https://forms.gle/54S5SPdP98neAYsA76)
+Please [Check in here](https://docs.google.com/forms/d/e/1FAIpQLScmmgOxU1sxZPqFstweD_qU8C_eu0MtK6wn3BajnftPz6j7_A/viewform?usp=sf_link)
 
 ## Level 1
 
