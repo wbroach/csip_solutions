@@ -47,8 +47,8 @@ You are given the following database table:
 
 | EmployeeID | Employee Name | ManagerID |
 | ----------- | ----------- | --------- |
-| 77      | Title       | 6		|
-| 46920   | Text        | 7		|
+| 77      | Susan Jones       | 6		|
+| 46920   | Humphrey Bogart        | 7		|
 | ...	  | ...		| ...		|
 
 
