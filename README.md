@@ -1,72 +1,59 @@
-# CSIP 10/09/2019
+# CSIP 10/16/2019
 
-Please [Check in here](https://forms.gle/CxLJKP7Mre3h7HJY6)
+Please [Check in here](https://forms.gle/54S5SPdP98neAYsA76)
 
-## 1301 / 1302 / Taking Data Structures
+## Level 1
 
-1) Find the middle value in a linked list. Do it in actual O(1*n) time. 
-2) Given a linked list that either terminates with null, or where the last node in the list points
-   back to some other node in the list (not necessarily the first!), write a function that returns false in the first case and true in the second case.
-
-   BONUS: Do it in O(n) time, O(1) space
-
-## Has Taken Data Structures
-
-1) A Seed of a number n is a number x such that multiplication of x with its digits is equal to n. The task is to find all seeds of a given number n. 
-   If no seed exists, then print the same.
-
-   Examples:
-   ```
-   Input  : n = 138
-   Output : 23 
-   23 is a seed of 138 because
-   23 * 2 * 3 is equal to 138
-
-   Input : n = 4977
-   Output : 79 711 
-   79 is a seed of 4977 because
-   79 * 7 * 9 = 4977.
-
-   711 is also a seed of 4977 because
-   711 * 1 * 1 * 7 = 4977
-
-   Input  : n = 9
-   Output : No seed exists
-
-   Input  : n = 738
-   Output : 123 
-   ```
-
-2) Given a 2D grid of characters and a word, find all occurrences of given word in grid. A word can be matched in all 8 directions at any point. Word is said be found 
-   in a direction if all characters match in this direction (not in zig-zag form).
-
-   The 8 directions are, Horizontally Left, Horizontally Right, Vertically Up and 4 Diagonal directions.
+Many programming languages include a utiility method for strings called `strip()` or `trim()`. Implement this function, which should take in a string
+and return the same string without and trailing or leading whitespace. If the string is composed entirely of whitespace, return the empty string. 
 
 
-## Everybody
+## Level 2
 
-1) Give the best-fit Big-O runtime for this function: 
+Given a value k, generate all well ordered numbers of length k. Well ordered means that the digits should be in increasing order.
+You may assume that k will be an integer where 1 <= k <= 9 
 
+Some examples: 
 
 ```java
-public void whatever(double n) {
+Input : K = 7
+Output :
+1234567 1234568 1234569 1234578 1234579
+1234589 1234678 1234679 1234689 1234789 
+1235678 1235679 1235689 1235789 1236789 
+1245678 1245679 1245689 1245789 1246789 
+1256789 1345678 1345679 1345689 1345789 
+1346789 1356789 1456789 2345678 2345679 
+2345689 2345789 2346789 2356789 2456789 
+3456789
 
-       if (n < 0) { n *= -1; }
-
-       if (n <= 3> {
-       	  System.out.println("whatever");
-       }
-       else {
-       	  return whatever(Math.sqrt(n));
-       }
-
-}
+Input  : K = 3
+Output :
+123 124 125 126 127 128 129 134 135 136 
+137 138 139 145 146 147 148 149 156 157 
+158 159 167 168 169 178 179 189 234 235 
+236 237 238 239 245 246 247 248 249 256 
+257 258 259 267 268 269 278 279 289 345 
+346 347 348 349 356 357 358 359 367 368 
+369 378 379 389 456 457 458 459 467 468 
+469 478 479 489 567 568 569 578 579 589 
+678 679 689 789
 
 ```
 
-2) Given a full triary tree with 4 internal nodes, calculate the number of leaf nodes present
+## Everybody
 
-   HINT: More generally, given a full N-ary tree with I internal nodes, calculate the number of leaf nodes L
-   DOUBLE HINT: What do the edges between two nodes tell you? Could you somehow count those to arrive at the answer?
+You are given the following database table: 
+
+| EmployeeID | Employee Name | ManagerID |
+| ----------- | ----------- | --------- |
+| 77      | Title       | 6		|
+| 46920   | Text        | 7		|
+| ...	  | ...		| ...		|
+
+
+Write a SQL statement that returns the employee ID, Employee Name, and manager name for each employee. 
+Note that managers are employees, too. 
+
    
    
