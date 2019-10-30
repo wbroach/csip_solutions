@@ -10,29 +10,29 @@ Please [Check in here](https://docs.google.com/forms/d/e/1FAIpQLScmmgOxU1sxZPqFs
 
 The following is general guidline to thinking about these questions:
 
-### Who is asking
+### 1. Who is asking
 
-### Identify the scope
+### 2. Identify the scope
 
-### Target your skills
-
-   
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### 3. Target your skills
+.
+.  
+. 
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
 ## Question 1
    How do you allocate memory in C?
    
