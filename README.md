@@ -15,24 +15,9 @@ The following is general guidline to thinking about these questions:
 ### 2. Identify the scope
 
 ### 3. Target your skills
-.
-.  
-. 
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
+
+<div></div>
+
 ## Question 1
    How do you allocate memory in C?
    
