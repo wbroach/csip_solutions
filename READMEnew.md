@@ -11,7 +11,7 @@ notation, the mathematical operation is placed in between the operaands.
 Convert a string representing a mathematical expression in postfix notation into a 
 string representing the identical expression in infix notation.
 
-You may assume that the expression is correctly formed, that it consists on String
+You may assume that the expression is correctly formed, and that it consists of String / char (however you want to think of it)
 representations of integers and operators only. In addition, you may assume that only 
 the "+" and "*" operators are supported (note that, in an ideal solution, other 
 operators would be trivial to add, requiring only additional boolean evaluation).
