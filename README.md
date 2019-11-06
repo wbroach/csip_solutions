@@ -79,8 +79,7 @@ Please [Check in here](https://docs.google.com/forms/d/e/1FAIpQLScmmgOxU1sxZPqFs
 .
 
 ## Q1 Answer
-static void bubbleSort(int arr[], int n) 
-    { 
+static void bubbleSort(int arr[], int n) { 
         int i, j, temp; 
         boolean swapped; 
         for (i = 0; i < n - 1; i++)  
@@ -114,6 +113,7 @@ static void bubbleSort(int arr[], int n)
                 break; 
         } 
     } 
+    
 ## Q2 Answer
     public static boolean isAnagram(String word, String anagram){
         if(word.length() != anagram.length()) {
