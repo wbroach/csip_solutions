@@ -1,4 +1,4 @@
-# CSIP 10/30/2019
+# CSIP 11/6/2019
 
 Please [Check in here](https://docs.google.com/forms/d/e/1FAIpQLScmmgOxU1sxZPqFstweD_qU8C_eu0MtK6wn3BajnftPz6j7_A/viewform?usp=sf_link)
 
