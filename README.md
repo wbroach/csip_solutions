@@ -122,10 +122,13 @@ static void bubbleSort(int arr[], int n)
         char[] chars = word.toCharArray();
         for(char c : chars) {
             int index = anagram.indexOf(c);
-            if(index < 0)
+            if(index != -1) {
+	    	anagram = anagram.substring(0, index) + anagram.substring(index + 1, anagram.length());
+	    } else {
                 return false;
+	    }
         }
-        return true;
+        return anagram.isEmpty();
     }
 
 }
