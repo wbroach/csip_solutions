@@ -79,8 +79,9 @@ Please [Check in here](https://docs.google.com/forms/d/e/1FAIpQLScmmgOxU1sxZPqFs
 .
 
 ## Q1 Answer
+
 static void bubbleSort(int arr[], int n) { 
-        int i, j, temp; 
+        int i, j; 
         boolean swapped; 
         for (i = 0; i < n - 1; i++)  
         { 
