@@ -103,7 +103,7 @@ Output : ((a+b)*(c+d))
 .
 
 .
-
+```
 static boolean isOperand(char x)
     {
         return (x >= 'a' && x <= 'z') ||
@@ -143,3 +143,4 @@ static boolean isOperand(char x)
         // infix.
         return s.peek();
     }
+```
